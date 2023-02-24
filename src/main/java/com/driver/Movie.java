@@ -5,10 +5,10 @@ public class Movie {
     private int durationInMinutes;
     private double imdbRating;
 
-    Movie(){
+    public Movie(){
 
     }
-    Movie(String name,int duration,double rating){
+    public Movie(String name,int duration,double rating){
         this.name=name;
         this.durationInMinutes=duration;
         this.imdbRating=rating;
